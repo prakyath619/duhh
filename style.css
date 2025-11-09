@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  background: #0f0f0f;
+  color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  width: 420px;
+  max-height: 90vh;
+  background: #1b1b1b;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.header {
+  background: #161616;
+  padding: 16px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #2b2b2b;
+}
+
+.chat-box {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.msg {
+  margin: 8px 0;
+  line-height: 1.4;
+}
+
+.footer {
+  display: flex;
+  padding: 10px;
+  background: #161616;
+  border-top: 1px solid #2b2b2b;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+button {
+  margin-left: 8px;
+  padding: 10px 16px;
+  border: none;
+  background: #00ffff;
+  color: #000;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00cccc;
+}
